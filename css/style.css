@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+header {
+    background-color: #030104;
+    color: #ecf0f1;
+}
+
+.c-logo {
+    margin: 20px 100px;
+    padding-bottom: 15px;
+}
+.c-menu-category a{
+    margin: 0px 25px 0px 0px;
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 3px;
+}
+.c-menu-category-list {
+    color: #000;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+a:link a:visited{
+    color: #000;
+}
+.c-menu-category a:link, .c-menu-category a:visited {
+    color: #DF1F2D;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1344px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .c-navigation-container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-menu-category-list img {
+    height: 24px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #000
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #DF1F2D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #E23542;
+}
+
+input:focus, textarea:focus {
+    outline-color: #DF1F2D;
+}
+
+footer {
+    background-color: #000;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
